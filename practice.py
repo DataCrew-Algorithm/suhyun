@@ -232,7 +232,28 @@
 
 # print(max([1]))
 
-a = [10,20,30,40,50]
+# a = [10,20,30,40,50]
 
-a = a[::-1]
-print(a)
+# a = a[::-1]
+# print(a)
+
+
+# a = 'asdf'
+# a[0] = a[0].upper()
+# print(a)
+
+# a = list('214212333')
+# a.sort(reverse=1)
+# print(a)
+
+import numpy as np
+
+a = np.array([1,2,3,4,5])
+b = np.array([0,2,3,4,5])
+c = np.array([2,3,4,5])
+
+print(np.where(a > b))
+print(np.where(b < a))
+print(type(np.where(a != c)[0][0]))
+
+

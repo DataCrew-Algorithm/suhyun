@@ -14,5 +14,3 @@ if ans_list:
 
 else: 
     print('HE GOT AWAY!')
-
-    
