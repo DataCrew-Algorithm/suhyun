@@ -246,14 +246,21 @@
 # a.sort(reverse=1)
 # print(a)
 
-import numpy as np
+# import numpy as np
 
-a = np.array([1,2,3,4,5])
-b = np.array([0,2,3,4,5])
-c = np.array([2,3,4,5])
+# a = np.array([1,2,3,4,5])
+# b = np.array([0,2,3,4,5])
+# c = np.array([2,3,4,5])
 
-print(np.where(a > b))
-print(np.where(b < a))
-print(type(np.where(a != c)[0][0]))
+# print(np.where(a > b))
+# print(np.where(b < a))
+# print(type(np.where(a != c)[0][0]))
 
 
+
+
+a = ['abc', 'def']
+print(a[1].count('a'))
+a 
+
+print(5/2)
