@@ -1,7 +1,7 @@
 # 각 줄을 돌면서 X표시 된곳의 인덱스를 담음. 다만, 원래 있으면 안담음
 N, M = map(int, input().split())    # 행과 열의 개수를 담음
 guard_list = []                     # 성의 상태를 담음
-guard_idx = []                      # 경비원의 인덱스를 담음(열에 적어도 한개 담기게 하기 위한 작업)
+guard_idx = []                      # 경비원의 인덱스를 담음(적어도 한명이라도 있는 열의 index)
 blank_guard = 0
 
 for _ in range(N):                  # 성의 상태를 담음
