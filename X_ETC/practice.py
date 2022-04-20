@@ -265,5 +265,9 @@
 
 # print(5/2)
 
-l = [1,4,6]
-l
+# l = [1,4,6]
+# l
+
+
+for i in range(0):
+    print(i)

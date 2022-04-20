@@ -1,3 +1,7 @@
+# B-> A, A->B로 바꾸려고 하였고
+# 그 과정에서 겹치지 않게 하기 위해서 *, # 등 임시 기호로 바꿔주려 하였으나 메모리초과 
+# 동시에 바꿔주는 방법 없을까 생각
+
 # K = int(input())
 
 # char = "A"
@@ -15,23 +19,25 @@
 
 
 # ver.2
+# 리스트에
 # K = int(input())
 
-# char = list("A")
+# char = list("A") # 초기값인 A를 담는다.
+
 
 
 # while True:
-#     try:
-#         idx = char.index('A')
+#     try:  # index함수는 찾는 값이 없을 때 에러이므로
+#         idx = char.index('A')         
 #         char[idx] = "*"
 #         idx_tmp = char.index('*')
+#         char[idx_tmp] = "B"
+
 #         idx2 = char.index('B')
 #         char[idx2] = "#"
-#         idx_tmp = char.index('*')
+#         char = str(char.replace("#", 'BA'))
 
-#         char[idx_tmp] = "B"
-#         char = str(char.replace("*", 'BA'))
-#     except:
+#     except:   #index함수 에러나면 
 #         break
 # print(char)
 
@@ -41,7 +47,7 @@
 # print(A, B)
 
 
-# ver.3
+# ver.3 # 피보나치 수열
 K = int(input())
 
 A_list = [1, 0]
