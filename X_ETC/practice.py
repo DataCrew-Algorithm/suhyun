@@ -269,5 +269,9 @@
 # l
 
 
-for i in range(0):
-    print(i)
+# for i in range(0):
+#     print(i)
+
+l = [1,2,3,4]
+l2 = [3,4]
+print(l-l2)
