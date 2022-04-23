@@ -272,6 +272,36 @@
 # for i in range(0):
 #     print(i)
 
-l = [1,2,3,4]
-l2 = [3,4]
-print(l-l2)
+# l = [1,2,3,4]
+# l2 = [3,4]
+# print(l-l2)
+
+# if [1,2] in [1,2,3]:
+#     print(1)
+
+
+# print(id(False))
+
+# a = ()
+# print(id(False))
+
+# print(type(a))
+# while a == False:
+#     print("1")
+
+# a = (1,2,3)
+# b = (1,2,3)
+# c = [1,2,3]
+# d = [1,2,3]
+# print(a is b)
+# print(c is d)
+# print(b == c)
+# print(id(a))
+# print(id(b))
+
+# a= [1,2,3]
+# b=[4]
+# print(a+b)
+a = {1,2,3}
+b = {2,3}
+print(a.intersection(b) != b)
