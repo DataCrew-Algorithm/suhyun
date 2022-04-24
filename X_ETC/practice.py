@@ -302,6 +302,14 @@
 # a= [1,2,3]
 # b=[4]
 # print(a+b)
-a = {1,2,3}
-b = {2,3}
-print(a.intersection(b) != b)
+# a = {1,2,3}
+# b = {2,3}
+# print(a.intersection(b) != b)
+print(type(5/2))
+print(round(5/2))
+print(round(2.5))
+
+i = 3
+print((i/2))
+
+print(max([1, 3, 577], 2))

@@ -19,10 +19,10 @@
 
 # print(4//5)
 
-# a  = [7,4,3,5,1,8]
+a  = [7,4,3,5,1,8]
 
-# a.sort()
-# print(a)
+a.sort()
+print(a)
 # b = set(a)
 # print(b)
 # c = list(b)
@@ -32,7 +32,13 @@
 
 # Ver.1 (108ms)
 
-num = int(input())
-arr = [int(input()) for _ in range(num)]
-arr = sorted(arr) # sort(arr) 도 가능: 이 경우 객체 재지정 필요 없음
-print(type(*arr))
+# num = int(input())
+# arr = [int(input()) for _ in range(num)]
+# arr = sorted(arr) # sort(arr) 도 가능: 이 경우 객체 재지정 필요 없음
+# print(type(*arr))
+
+a = [1,2,3,4]
+print(a[-2:])
+
+for i in range(5, 0, -1):
+    print(i)
