@@ -49,7 +49,11 @@
 # print(l)
 
 
-text = '2'
+text = '0'
 a = text.zfill(2)
 print(a), print(a)
 print(type(a))
+
+# n = '26'
+# b = '26'
+# print(n == b)
