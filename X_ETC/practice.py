@@ -307,11 +307,24 @@
 # print(a.intersection(b) != b)
 # print(type(5/2))
 # print(round(5/2))
-print(round(2.6))
-print(round(3.5))
+# print(round(2.6))
+# print(round(3.5))
 
 # i = 3
 # print((i/2))
 
 # print(max([1, 3, 577]))
 
+
+a = '2'
+b = a
+b = '3'
+print((a))
+print((b))
+
+
+a = 2 
+b = a
+b = 55
+print(a)
+print(b)
