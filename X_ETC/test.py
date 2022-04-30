@@ -49,11 +49,24 @@
 # print(l)
 
 
-text = '0'
-a = text.zfill(2)
-print(a), print(a)
-print(type(a))
+# text = '0'
+# a = text.zfill(2)
+# print(a), print(a)
+# print(type(a))
 
 # n = '26'
 # b = '26'
 # print(n == b)
+
+
+# a = [1,2,3,4,5,'a', 'a', 'a']
+# print(a.count('a'))
+
+# nums = []
+# print(nums[-1])
+
+nums = [1,2,3,4]
+a = nums
+print(a)
+a.append(5)
+print(nums)
