@@ -316,15 +316,20 @@
 # print(max([1, 3, 577]))
 
 
-a = '2'
-b = a
-b = '3'
-print((a))
-print((b))
+# a = '2'
+# b = a
+# b = '3'
+# print((a))
+# print((b))
 
-
-a = 2 
-b = a
-b = 55
+from typing import List
+a:List[str] =[]
+a.append(3)
 print(a)
-print(b)
+
+
+# a = 2 
+# b = a
+# b = 55
+# print(a)
+# print(b)
