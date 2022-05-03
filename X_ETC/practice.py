@@ -322,10 +322,14 @@
 # print((a))
 # print((b))
 
-from typing import List
-a:List[str] =[]
-a.append(3)
-print(a)
+# from typing import List
+# a:List[str] =[]
+# a.append(3)
+# print(a)
+
+a = ['bob', 'hit', 'a', 'ball', 'the', 'hit', 'ball', 'flew', 'far', 'after', 'it', 'was', 'hit']
+
+print(a.count('ball'))
 
 
 # a = 2 

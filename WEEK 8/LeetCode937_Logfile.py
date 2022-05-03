@@ -23,9 +23,9 @@ class Solution:
             if logs[i].split()[1].isdigit():    # 숫자일때 num에 넣고
                 nums.append(logs[i])
             else:
-                char.append(logs[i])            # 그외에는 char에 넣음
+                char.append(logs[i])            # 그외 문자열은 char에 넣음
 
-        char.sort(key = lambda x:(x.split()[1:], x.split()[0]))
+        char.sort(key = lambda x:(x.split()[1:], x.split()[0])) # 문자열 담은 것만 sort
     
         return char + nums  # 숫자로 시작되는 로그는 그냥 원래 순서대로 넣으면 됨
 
