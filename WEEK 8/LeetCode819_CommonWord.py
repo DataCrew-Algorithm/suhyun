@@ -20,9 +20,12 @@ class Solution:
 
         return ans
 
-
-paragraph = "a."
-banned = []
+# paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+# banned = ["hit"]
+paragraph ="a, a, a, a, b,b,b,c, c"
+banned =["a"]
+# paragraph = "a."
+# banned = []
 sol = Solution()
 print(sol.mostCommonWord(paragraph, banned))
                 
