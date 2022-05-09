@@ -65,8 +65,45 @@
 # nums = []
 # print(nums[-1])
 
-nums = [1,2,3,4]
-a = nums
-print(a)
-a.append(5)
-print(nums)
+# nums = [1,2,3,4]
+# a = nums
+# print(a)
+# a.append(5)
+# print(nums)
+
+# def solution(v):
+#     answer = []
+#     x = []
+#     y = []
+#     ans_tmp = []
+#     for i in range(3):
+#         if v[i][0] not in x:
+#             x.append(v[i][0])
+#         if v[i][1] not in y:
+#             y.append(v[i][1])
+
+#     for j in range(2):
+#         for k in range(2):
+#             ans_tmp.append(x[j])
+#             ans_tmp.append(y[k])
+
+#             if ans_tmp not in v:
+#                 answer = ans_tmp
+#                 break
+#             else:
+#                 ans_tmp =[]
+#         if answer:
+#             break
+
+    
+
+#     return answer
+
+# # v = [[1, 4], [3, 4], [3, 10]]
+# v = [[1, 1], [2, 2], [1, 2]]
+# print(solution(v))
+
+queue1 = [3, 2, 7, 2]
+tmp = queue1.pop(0)
+print(tmp)
+print(queue1)

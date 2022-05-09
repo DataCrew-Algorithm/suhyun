@@ -325,11 +325,11 @@
 # from typing import List
 # a:List[str] =[]
 # a.append(3)
-# print(a)
+# # print(a)
 
-a = ['bob', 'hit', 'a', 'ball', 'the', 'hit', 'ball', 'flew', 'far', 'after', 'it', 'was', 'hit']
+# a = ['bob', 'hit', 'a', 'ball', 'the', 'hit', 'ball', 'flew', 'far', 'after', 'it', 'was', 'hit']
 
-print(a.count('ball'))
+# print(a.count('ball'))
 
 
 # a = 2 
@@ -337,3 +337,11 @@ print(a.count('ball'))
 # b = 55
 # print(a)
 # print(b)
+
+a = 'bb'
+start = 0
+diff= len(a)-1
+end = diff - start
+# print(a[start:end+1])
+# print(a[diff-start:diff-(end+1):-1])
+a[1:-1:-1]
