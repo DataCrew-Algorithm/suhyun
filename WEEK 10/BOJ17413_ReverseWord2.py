@@ -1,3 +1,4 @@
+# 투포인터를 이용한 풀이
 sentence = list(input())
 # print(sentence)
 
@@ -8,7 +9,6 @@ while left < len(sentence):
         while sentence[left] != '>':        # > 를 만날 때까지 왼쪽포인터 +1
             left += 1
         left += 1
-
 
     elif sentence[left].isalnum():          # 문자, 숫자를 만났을 때, 이 때만 뒤집음
         # print(f'left:{left}')
@@ -26,7 +26,7 @@ while left < len(sentence):
         sentence[left:right] = tmp
 
         # print(sentence)
-        left = right + 1 
+        left = right
 
     elif sentence[left] == ' ':              # 띄어쓰기를 만났을 때, 왼쪽포인터만 +1
         left += 1
