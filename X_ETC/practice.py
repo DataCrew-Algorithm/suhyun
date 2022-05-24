@@ -338,10 +338,19 @@
 # print(a)
 # print(b)
 
-a = 'bb'
-start = 0
-diff= len(a)-1
-end = diff - start
-# print(a[start:end+1])
-# print(a[diff-start:diff-(end+1):-1])
-a[1:-1:-1]
+# a = 'bb'
+# start = 0
+# diff= len(a)-1
+# end = diff - start
+# # print(a[start:end+1])
+# # print(a[diff-start:diff-(end+1):-1])
+# a[1:-1:-1]
+
+
+# for i in range(4, 0, -1):
+#     print(i)
+
+i = '<'
+print(i.isalnum())
+
+print(len('<   space   >space space space<    spa   c e>'))
