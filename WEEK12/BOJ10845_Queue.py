@@ -7,12 +7,12 @@ queue = deque()
 for _ in range(N):
     command = sys.stdin.readline().split()
 
-    if len(command) == 2:
+    if len(command) == 2:               # push 1 일때만 리스트의 길이가 2임
         queue.append(int(command[1]))
 
     else:
-        command = command[0]
-        if command == 'pop':
+        command = command[0]            # 길이가 1일때는 str으로 바꿔서 넣음
+        if command == 'pop':            
             if queue:
                 print(queue.popleft())
             else:
@@ -22,7 +22,7 @@ for _ in range(N):
             print(len(queue))
 
         elif command == 'empty':
-            if queue:
+            if queue:                   # 빈리스트 이면 0
                 print(0)
             else:
                 print(1)
