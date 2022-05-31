@@ -350,7 +350,42 @@
 # for i in range(4, 0, -1):
 #     print(i)
 
-i = '<'
-print(i.isalnum())
+# i = '<'
+# print(i.isalnum())
 
-print(len('<   space   >space space space<    spa   c e>'))
+# print(len('<   space   >space space space<    spa   c e>'))
+# from collections import deque
+# a = deque([1,2,3])
+# print(a.index(2))
+
+# a = 'push'
+# b = a.split()
+# print(b)
+# print(len(b))
+
+# import sys
+# N = 2
+# commands = [sys.stdin.readline().split() for _ in range(N)]
+# print(commands)
+
+# from collections import deque
+# a = deque([1,2])
+# a.popleft()
+# print(a[0])
+
+# l = [1,2]
+# l.pop(0)
+
+# a = 'push 1'
+# q, w = a.split()
+# print(q)
+
+# print(type(q))
+# a_ = list('ABBA')
+# print(a_[2]+a_[3])
+
+# a = list('ABBA')
+# del(a[-1])
+# print(a)
+a = []
+print(a[-1])

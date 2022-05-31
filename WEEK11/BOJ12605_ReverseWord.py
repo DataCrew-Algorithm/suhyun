@@ -8,13 +8,13 @@ for i in range(N):
 
 
 # ver2. 스택을 이용한 풀이 64ms
-# N = int(input())
+N = int(input())
 
-# for i in range(N):
-#     ans = []
-#     tmp_list = input().split(' ')
-#     while tmp_list != []:
-#         tmp = tmp_list.pop()
-#         ans.append(tmp)
-#     ans = ' '.join(ans)
-#     print(f'Case #{i+1}: {ans}')
+for i in range(N):
+    ans = []
+    tmp_list = input().split(' ')
+    while tmp_list != []:
+        tmp = tmp_list.pop()
+        ans.append(tmp)
+    ans = ' '.join(ans)
+    print(f'Case #{i+1}: {ans}')

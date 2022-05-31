@@ -5,7 +5,7 @@ N = int(sys.stdin.readline())
 queue = deque()
 
 for _ in range(N):
-    command = sys.stdin.readline().split()
+    command = sys.stdin.readline().split() # ['pop']
 
     if len(command) == 2:               # push 1 일때만 리스트의 길이가 2임
         queue.append(int(command[1]))
