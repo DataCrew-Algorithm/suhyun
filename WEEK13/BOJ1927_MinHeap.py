@@ -4,7 +4,7 @@ import sys
 nums = []
 N = int(input())
 for _ in range(N):
-    tmp = int(sys.stdin.readline().rstrip())
+    tmp = int(sys.stdin.readline())
     if nums:    # heap 안에 숫자가 있을때,
         if tmp == 0:
             print(heapq.heappop(nums))
