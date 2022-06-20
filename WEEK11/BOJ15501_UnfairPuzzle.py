@@ -55,6 +55,8 @@ while i != len(deque1): # 밀기를 수열 길이만큼 하면 제자리로 돌�
         
         i += 1                  # 밀기 연산을 한 횟수 count
         # print(deque1)
-
-if i == len(deque1):            # 밀기를 수열의 길이만큼 돌았는데도 안나온 것이므로 bad
+else:
     print('bad puzzle')
+
+# if i == len(deque1):            # 밀기를 수열의 길이만큼 돌았는데도 안나온 것이므로 bad
+#     print('bad puzzle')
