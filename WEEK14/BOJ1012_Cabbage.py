@@ -48,8 +48,8 @@ sys.setrecursionlimit(10000)
 # dfs 정의
 def dfs(x, y):
     # 상하좌우 확인을 위해 dx, dy 생성
-    dx = [0,0,-1,1]
-    dy = [1,-1,0,0]
+    dx = [0,0,1,-1]
+    dy = [-1,1,0,0]
     
 
     # 네 방향 탐색
