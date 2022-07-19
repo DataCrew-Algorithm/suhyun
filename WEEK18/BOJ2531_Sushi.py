@@ -1,24 +1,25 @@
-# import sys
-# from collections import deque
-# read = sys.stdin.readline
+# ver1. deque를 이용한 풀이
+import sys
+from collections import deque
+read = sys.stdin.readline
 
-# N, d, k, c = map(int, read().split())
+N, d, k, c = map(int, read().split())
 
 
-# nums = deque([])
-# for _ in range(N):
-#     nums.append(int(read()))
+nums = deque([])
+for _ in range(N):
+    nums.append(int(read()))
 
-# len_list = []
-# for _ in range(N):
-#     tmp = deque([])
-#     for i in range(k):
-#         tmp.append(nums[i])
-#     tmp.append(c)
-#     len_list.append(len(set(tmp)))
-#     nums.rotate(1)
+len_list = []
+for _ in range(N):
+    tmp = deque([])
+    for i in range(k):
+        tmp.append(nums[i])
+    tmp.append(c)
+    len_list.append(len(set(tmp)))
+    nums.rotate(1)
 
-# print(max(len_list))
+print(max(len_list))
 
 
 # # ver2
