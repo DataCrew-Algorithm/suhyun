@@ -1,24 +1,24 @@
-import sys
-read = sys.stdin.readline
+# import sys
+# read = sys.stdin.readline
 
-N, M = map(int, read().split())
+# N, M = map(int, read().split())
 
-A = []
-B = []
-for _ in range(N):
-    A.append(list(read().rstrip()))
+# A = []
+# B = []
+# for _ in range(N):
+#     A.append(list(read().rstrip()))
 
-for _ in range(N):
-    B.append(list(read().rstrip()))
+# for _ in range(N):
+#     B.append(list(read().rstrip()))
 
 
-def cal(m):
-    for i in range(3):
-        for j in range(3):
-            if i[j] == 1:
-                i[j] = 0
-            else:
-                i[j] = 1
+# def cal(m):
+#     for i in range(3):
+#         for j in range(3):
+#             if i[j] == 1:
+#                 i[j] = 0
+#             else:
+#                 i[j] = 1
 
 
 # 블로그 풀이
@@ -53,3 +53,9 @@ if A != B:
 else:
     print(cnt)
 
+
+'''
+CNN에서 kernel을 대는 느낌
+좌상단만 비교하는 이유는, 다른것이 어떻든 상관이 없음. 좌상단끼리만 비교해서 바꿨는데
+결과적으로 A B가 다르다면 그냥 안되는 놈이었던 것임
+'''
