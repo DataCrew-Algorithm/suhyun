@@ -31,7 +31,7 @@
 #     print('-')
 
 
-#
+# No를 고려한 풀이
 
 import sys
 from collections import deque
@@ -72,9 +72,9 @@ except:
     print('NO')
 
 '''
-target => 목표 리스트
+target = [4,3,6,8,7,5,2,1] => 목표 리스트
 
-stack <-임시로 담아두는 스택
+stack = [] <-임시로 담아두는 스택
 
 queue <- 12345678 로 시작
 
