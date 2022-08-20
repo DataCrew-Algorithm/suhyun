@@ -19,7 +19,7 @@
 #     print(fibonacci(tmp))
 
 
-# 시간초과 - 문제: 메모리에 저장해둬서 했던 작업 반복하지 않게 해야함
+# # 시간초과 - 문제: 메모리에 저장해둬서 했던 작업 반복하지 않게 해야함
 # import sys
 # input = sys.stdin.readline
 
