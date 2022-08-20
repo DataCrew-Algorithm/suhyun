@@ -20,7 +20,7 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-stairs = [0] + [int(input()) for _ in range(n)] + [0]
+stairs = [0] + [int(input()) for _ in range(n)] + [0] # index를 맞추기 위한 앞의 0, n이 1일때 점화식 index error를 해결하기 위한 뒤의 0
 cache = [0] * (n+2)
 cache[1] = stairs[1]            # 1층은 자기자신
 cache[2] = cache[1] + stairs[2] # 2층은 1층+2층
